@@ -16,7 +16,7 @@ const morgan=require('morgan');
 const pagecount=10000;
 
 const app=express();
-//app.use(morgan('dev')); This is commenetd to test the commit on github
+app.use(morgan('dev'));
 
 
 
@@ -332,5 +332,5 @@ app.use(function(err,req,res,next){
 //listen for requests
 app.listen(5000,
     function(){
-        console.log('now listensing to port '+5000);
+        console.log('now listensing to port '+5001);
     });
