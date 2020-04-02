@@ -2,13 +2,14 @@
   "name": "ignite-docker",
   "version": "1.0.0",
   "description": "First version",
-  "main": "index.js",
+  "main": "NAVHistory.js",
   "scripts": {
+    "start": "node NAVHisotry.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/oshriva/NavHisotry.git"
+    "url": "git+https://github.com/oshriva/NavHistory.git"
   },
   "author": "",
   "license": "ISC",
@@ -20,6 +21,7 @@
     "apache-ignite-client": "^1.0.0",
     "body-parser": "^1.19.0",
     "data-forge": "^1.8.4",
+    "dateformat": "^3.0.3",
     "express": "^4.17.1",
     "morgan": "^1.10.0",
     "querystring": "^0.2.0",
