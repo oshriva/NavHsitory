@@ -4,11 +4,12 @@
   "description": "First version",
   "main": "NAVHistory.js",
   "scripts": {
+    "start": "node NAVHisotry.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/oshriva/NavHisotry.git"
+    "url": "git+https://github.com/oshriva/NavHistory.git"
   },
   "author": "",
   "license": "ISC",
